@@ -65,7 +65,7 @@ public class App {
         int max = quote.size()-1 ;
         System.out.println(quote.get((int) (Math.random()*(max- min+1)+ min)).toString());
 
-
+//==============================lab0========================
         try{
             URL url = new URL("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -76,7 +76,7 @@ public class App {
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
 
-            BufferedWriter add = new BufferedWriter(new FileWriter("C:\\Users\\Motas\\asac\\401\\quotes\\app\\src\\main\\java\\quotes\\recentqoutes.json" , false));
+            BufferedWriter add = new BufferedWriter(new FileWriter("app/src/NewRecentquotes.json" , false));
             QuoteAPI qutApi = gson.fromJson(bufferedReader,QuoteAPI.class);
             Quote quotLocal = new Quote(null, qutApi.getAuthor(), null,qutApi.getQuote());
             quote.add(quotLocal);
