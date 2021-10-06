@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quotes.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-06T20:10:23" hostname="LTUCSTUDENT-L108" time="0.265">
+<testsuite name="quotes.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-06T20:41:22" hostname="LTUCSTUDENT-L108" time="0.342">
   <properties/>
-  <testcase name="testAPI()" classname="quotes.AppTest" time="0.265"/>
+  <testcase name="testAPI()" classname="quotes.AppTest" time="0.342"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

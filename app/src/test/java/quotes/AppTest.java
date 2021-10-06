@@ -64,7 +64,6 @@ class AppTest {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         assertEquals(200, connection.getResponseCode(), String.valueOf(true));
     }
-
 }
 
 
